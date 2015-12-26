@@ -1,0 +1,125 @@
+//=======================================================
+//		Author: Elm
+//		BL_ID: 35295
+//
+//		Framework for an Avatar
+//			You should leave this as a skeleton
+//			To copy and paste to make new Avatar files
+//			Or download the batch file to Generate
+//			New avatars. You can view the Batch 
+//			Source Code 
+//			here: https://github.com/Elmling/Avatar_API/blob/Avatar-Generator-(BATCH)/GenerateAvatar.bat
+//			Or download it
+//			here: https://github.com/Elmling/Avatar_API/releases/tag/v1.0
+//=========================================================
+
+new scriptObject()
+{
+	//DO NOT MODIFY
+	AttributeCount = 23;
+	Class = Avatar;
+	//==============
+	
+	//Name of Avatar
+	Name = "";
+	
+	//List Of Default Accents
+	//	Plume
+	//	Triplume
+	//	Septplume
+	//========================
+	
+	AccentType = "Accent Type";
+	
+	//Takes an RGB plus Transparency Value
+	//Example: 0.53 0.84 1.55 1
+	
+	AccentColor = "";
+	
+	//List Of Default Smileys
+	//	BrownSmiley 	ChefSmiley 		KleinerSmiler
+	//	Male07Smiley	Orc				AdamSavage
+	//	Jamie			AsciiTerror		MemeBlockMongler
+	//	MemeCats		MemeDesu		MemeGrinMan
+	//	MemeHappy		MemePBear		MemeYaranika
+	//	SmileyBlonde	SmileyCreepy	SmileyEvil1
+	//	SmileyEvil2		SmileyOld		SmileyPirat1
+	//	SmileyPirate2	SmileyPirate3	SmileyRedBeard
+	//	SmileyRedBeard2
+	//=================================================
+	HeadSmiley = "";
+	
+	//Takes an RGB plus Transparency Value
+	//Example: 0.53 0.84 1.55 1
+	HeadColor = "";
+	
+	//Takes an RGB plus Transparency Value
+	//Example: 0.53 0.84 1.55 1
+	BodyColor = "";
+	
+	//List Of Default Decals
+	//	Alyx			Archer			Chef
+	//	DKnight			DrKleiner		HCZombie
+	//	Knight 			LinkTunic		Hoodie
+	//	Medieval-Eagle	Medieval-Rider	Medieval-Tunic
+	//	Medieval-YARLY	Meme-Mongler	Mod-Army
+	//	Mod-DareDevil	Mod-Pilot		Mod-Prisoner
+	//	Mod-Suit		Space-Nasa		Space-New
+	//	Space-Old		Worm-Engineer	Worm-Sweater
+	//===============================================
+	BodyDecal = "";
+	
+	//String
+	//"Male" 
+	//	or
+	//"Female"
+	BodyType = "";
+	
+	//Takes an RGB plus Transparency Value
+	//Example: 0.53 0.84 1.55 1
+	//=====================================
+	LeftArmColor = "";
+	RightArmColor = "";
+
+	LeftShoeColor = "";
+	RightShoeColor = "";
+
+	PantsColor = "";
+	//=====================================
+	
+	//String
+	//"Male"
+	//	or
+	//"Female"
+	PantsType = "";
+	
+	//String
+	//"Lpeg"
+	//	or
+	//"Lshoe"
+	//	or
+	//"Lski"
+	LeftShoeType = "";
+	
+	//String
+	//"Lpeg"
+	//	or
+	//"Lshoe"
+	//	or
+	//"Lski"
+	RightShoeType = "";
+	
+	//Takes an RGB plus Transparency Value
+	//Example: 0.53 0.84 1.55 1
+	//====================================
+	LeftShoeColor = "";
+	RightShoeColor = "";
+	
+	LeftPegColor = "";
+	RightPegColor = "";
+	
+	LeftSkiColor = "";
+	RightSkiColor = "";
+	//=====================================
+	
+};
